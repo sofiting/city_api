@@ -1,0 +1,464 @@
+{
+  "cities": [
+    {
+      "id": 1,
+      "name": "Madrid",
+      "image": "https://i.pinimg.com/564x/f9/8f/40/f98f40a3ddcf3bb4b036808ec2d7aba7.jpg",
+      "description": "Madrid, the vibrant capital of Spain, is known for its rich history, stunning architecture, and lively culture. With famous landmarks like the Royal Palace and Prado Museum, it offers a blend of tradition and modernity. The city is also famous for its tapas bars and bustling nightlife.",
+      "airplane_companies": [
+        {
+          "id": 1,
+          "name": "Iberia",
+          "image": "https://i.pinimg.com/564x/5e/4c/68/5e4c68bda46b4a61f7b847ea50e7de0c.jpg",
+          "price": 200.0,
+          "recommendation_star": 4.5,
+          "description": "Iberia, the national airline of Spain, offers extensive routes across Europe, the Americas, and beyond. Known for excellent service, it provides a comfortable travel experience with modern amenities."
+        },
+        {
+          "id": 2,
+          "name": "Vueling",
+          "image": "https://i.pinimg.com/564x/3c/e2/a8/3ce2a8f6f0c47ecde6dc53817e78eafe.jpg",
+          "price": 150.0,
+          "recommendation_star": 4.3,
+          "description": "Vueling, a low-cost airline based in Barcelona, offers affordable flights throughout Europe. It's popular for its competitive pricing and convenient schedules."
+        }
+      ],
+      "hotels": [
+        {
+          "id": 1,
+          "name": "Hotel Montera Madrid",
+          "images": [
+            "https://lh3.googleusercontent.com/p/AF1QipMNpWY6sMwmC1oNLB6g-crtBUmsl0Cd54kkqzQp=s294-w294-h220-n-k-no",
+            "https://lh3.googleusercontent.com/p/AF1QipOZi7IGHi7qPCdCW1CbdfjbGqRSB5L0WuCsAt8l=s294-w294-h220-n-k-no",
+            "https://lh3.googleusercontent.com/gps-proxy/ALd4DhHAja1CPn_JxIPtP0cvIBOzu826wHCtmotj4oxhfLCeV_jcmu6uYZEg2a90TsOtHmLyt34cbo9sqkLzgZJYuwl7RjhwRhZUcQREt9n6B-U1D_N8lyY_NhHXiAqQbU-MNzWiObaN3tn1nlSoPUxh4t1bPQjcvDbYpbf5KvyPCzyY2zmbFOqc32NC=s294-w294-h220-n-k-no"
+        ],
+          "price": 320.0,
+          "recommendation_star": 4.7,
+          "description": "Hotel Montera Madrid enjoys a prime central location, providing luxurious accommodations that blend comfort with convenience. Situated within easy reach of major attractions, guests can explore the city's vibrant offerings effortlessly. The hotel boasts modern amenities designed for both relaxation and productivity."
+        },
+        {
+          "id": 2,
+          "name": "CIELO Madrid Studios",
+          "images": [
+            "https://lh3.googleusercontent.com/proxy/4bljNTVm7rOYukZLWTBU0aBBfuLLyblWEh4y1828ev8FTTId4j_VFNJUsYwewPvJBQ4S1mN7kvDoW7yybnfJJaJhlo-mB1q5oLjX1WYTEgOHehU9v436UYL_UAcfRUGVNn8XeBGXzdUTPY9Z9uanMMinKQ1hbEw=s294-w294-h220-n-k-no",
+            "https://lh3.googleusercontent.com/proxy/VjPmC33zTJRk8lnd4ZerBniAgpsEga92nBrjucafx6KqjheuWFsQOp_GISt2tnZog_bcLhNN8ATf63BlVh7ejWs2m6QHtFsciO8WROmnbsw1K9QuuhduBTj22cUYKm9n3wHe7hARPtUz8BH9uw1b5RPy5h37LaY=s294-w294-h220-n-k-no",
+            "https://lh3.googleusercontent.com/proxy/Dw2f7Yl2zIb1d2H1ub8yaMeLorLD_OHk2pPFF9PSHrReqRPviuVvKa-1iCdO0XZNrZyPyi_BiStGZAzg5LUk1Yln4Wz9GvsoNSzxMu-5gj3y2As5Rns13iXZi0SWOzxMiBrfwCS3h0mjqaCNXgg4FvRB20yse-o=s1360-w1360-h1020-rw"
+        ],
+          "price": 190.0,
+          "recommendation_star": 4.4,
+          "description": "CIELO Madrid Studios stands at the forefront of the film and television industry in Madrid, Spain, renowned for its cutting-edge facilities and adaptable spaces tailored for a wide spectrum of productions. With state-of-the-art technology and comprehensive amenities."
+        }
+      ],
+      "restaurants": [
+        {
+          "id": 1,
+          "name": "El Faro Restaurant",
+          "image": "https://i.pinimg.com/564x/a6/74/7a/a6747a960f67ea22664525ca41048dc1.jpg",
+          "price": 30.0,
+          "recommendation_star": 4.8,
+          "description": "El Faro is known for its traditional Spanish cuisine. With a warm atmosphere and authentic dishes, it's a favorite among locals and tourists."
+        },
+        {
+          "id": 2,
+          "name": "La Casa de Tapas",
+          "image": "https://i.pinimg.com/564x/bc/95/74/bc9574e25fa1a9d57f2dc55bb4ff80fe.jpg",
+          "price": 25.0,
+          "recommendation_star": 4.6,
+          "description": "La Casa de Tapas offers a delightful array of tapas in a lively atmosphere. It’s ideal for sharing meals with friends."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Paris",
+      "image": "https://i.pinimg.com/564x/d6/2f/c7/d62fc76a93122370d2c1887bc66238e1.jpg",
+      "description": "Paris, the city of love and art, is celebrated for its iconic landmarks like the Eiffel Tower and Louvre Museum. Known for its romantic ambiance and exquisite cuisine, Paris offers a blend of historic charm and modern sophistication.",
+      "airplane_companies": [
+        {
+          "id": 1,
+          "name": "Air France",
+          "image": "https://i.pinimg.com/564x/79/85/c2/7985c2e156cf51a1e06c0e760dc3a988.jpg",
+          "price": 180.0,
+          "recommendation_star": 4.6,
+          "description": "Air France, the flagship carrier of France, provides an extensive network of flights globally. With a reputation for quality service, it ensures a pleasant journey."
+        },
+        {
+          "id": 2,
+          "name": "EasyJet",
+          "image": "https://i.pinimg.com/564x/d9/c1/01/d9c101a6a2ed705604c779d3420f974c.jpg",
+          "price": 100.0,
+          "recommendation_star": 4.2,
+          "description": "EasyJet operates throughout Europe, known for affordable rates and reliable service. It is a preferred choice for budget-conscious travelers."
+        }
+      ],
+      "hotels": [
+        {
+          "id": 1,
+          "name": "Hotel Apollon Montparnasse",
+           "images": [
+            "https://lh3.googleusercontent.com/gps-proxy/ALd4DhHR45vaHSFSZxbz1t3N5XpUTdl9P5TFY-3X0t-cSaM_Bpd_LZhFnvbmJvagQ6l4iVXy15DyPwRn27L4iaX_pwy8di9vIBSl-fFe2o3vMHLdUowLU04IGNY7ktu3xL_DtBmeh_nilsQnFF8TELL5huvmHHs_668dijVOSJxtAlEqWMnMkB3t6jLq=s294-w294-h220-n-k-no",
+            "https://lh3.googleusercontent.com/gps-proxy/ALd4DhEYMrhA5H_e0HeNL7yo9LXTUu7c_byG59TpM76L-Dzm4_Vw8C2FytN3sN-bG9vJcX6y3_3lkcUcwpkq9PiY_YKrZ99UquI7IllMimvY2R2IPcgP1DKv80HwHrCmFSwlfOmT1SEXG9PWOKgKBbtlivIbW3kuKqVxudPSKRN24NNuZgjgJk0_qqcR-A=s294-w294-h220-n-k-no",
+            "https://lh3.googleusercontent.com/p/AF1QipOVTvqOcbGkjMfUY6cAXPnnI8HiPZG55Rvap_5a=s294-w294-h220-n-k-no"
+        ],
+          "price": 150.0,
+          "recommendation_star": 4.8,
+          "description": "Hotel Apollon Montparnasse offers luxurious accommodations near iconic landmarks. Known for its elegant decor and top-notch amenities, it provides an unforgettable stay."
+        },
+        {
+          "id": 2,
+          "name": "Demeure Montaigne",
+           "images": [
+            "https://lh3.googleusercontent.com/p/AF1QipPOcSJ_tF4nep1d2j4iD535whlEJfWQfdECI7Yh=s294-w294-h220-n-k-no",
+            "https://lh3.googleusercontent.com/p/AF1QipNz7sLvF4IkSUNRMIIpCsXQgtGuX1Fb6AZgz4Y6=s294-w294-h220-n-k-no",
+            "https://lh3.googleusercontent.com/p/AF1QipOL3Ovqkv6SExLQuh7xrtP_IGeYF9SJa-RokD1r=s294-w294-h220-n-k-no"
+        ],
+          "price": 180.0,
+          "recommendation_star": 4.5,
+          "description": "Demeure Montaigne is a charming hotel with comfortable rooms. It offers a welcoming atmosphere perfect for both leisure and business travelers."
+        }
+      ],
+      "restaurants": [
+        {
+          "id":1,
+          "name": "Le Gourmet",
+          "image": "https://i.pinimg.com/564x/dc/a5/f3/dca5f35764685b1189074fd085577432.jpg",
+          "price": 45.0,
+          "recommendation_star": 4.9,
+          "description": "Le Gourmet is a high-end restaurant offering exquisite French cuisine. With a refined atmosphere, it’s a must-visit for food lovers."
+        },
+        {
+          "id": 2,
+          "name": "Bistro de Lyon",
+          "image": "https://i.pinimg.com/564x/cf/ce/27/cfce2785ee7d5ddbcf58331e6706585d.jpg",
+          "price": 35.0,
+          "recommendation_star": 4.7,
+          "description": "Bistro de Lyon serves classic French dishes in a cozy setting. It provides an authentic taste of French bistro culture."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Tokyo",
+      "image": "https://i.pinimg.com/564x/f0/68/93/f06893dae0c4e9934cb58ac10cf1b37f.jpg",
+      "description": "Tokyo, the bustling capital of Japan, is known for its blend of traditional and modern attractions. From ancient temples to skyscrapers, it offers a unique experience. Renowned for its cuisine, including sushi and ramen, Tokyo delights food lovers worldwide.",
+      "airplane_companies": [
+        {
+          "id": 1,
+          "name": "Japan Airlines",
+          "image": "https://i.pinimg.com/564x/45/06/40/4506409e8f50839064eded9f051725fe.jpg",
+          "price": 250.0,
+          "recommendation_star": 4.7,
+          "description": "Japan Airlines is a major carrier in Japan, known for its hospitality and efficiency. It offers comfortable travel experiences both domestically and internationally."
+        },
+        {
+          "id": 2,
+          "name": "ANA",
+          "image": "https://i.pinimg.com/564x/44/5e/08/445e08f7e4a38cd51b1890564c8572a1.jpg",
+          "price": 230.0,
+          "recommendation_star": 4.8,
+          "description": "ANA (All Nippon Airways) is recognized for excellent service and a wide route network. It is a popular choice for travelers in Japan."
+        }
+      ],
+      "hotels": [
+        {
+          "id": 1,
+          "name": "Ryokan Espacioso",
+          "images": [
+            "https://lh3.googleusercontent.com/proxy/92r6AnT4szAPxwyTRFgYEnsUab2lJEHFpXFXONKF_AFFp5XL-iGHkrMALP39oSFqnij_8hEjzIBBOK9XuHiyLljjb-WbbR-VPDc-OI_vv3alGy873DSMIwNrBC58PXV_f-aFFoVIE8UszCucEWirNpcruLC3m5U=s294-w294-h220-n-k-no",
+            "https://lh3.googleusercontent.com/proxy/RZbpJHvaj6-MTFq0JSZwhaygrWPfjBgiHkLRzVCh3XvCkU3ZrWKFaijxXn2tEpva0EEW6hlmFJsneyrz87f0DlEiUGJqVrvPYlJWbVV6Y-xl-8qNvLvdi6XhhUmLsmgamvNHECBY94JGV7xVv_cGwkMLA11Q4Q=s294-w294-h220-n-k-no",
+            "https://lh3.googleusercontent.com/proxy/JA_RejrXnAFrCX-_-9GGBP0BBIDhNnes5Mz0H9t2c_tbhSSGghIzYEf_xJMWZvc5q--PexsfljSOEhvYr9XULb-SrUHtgAiIX8jO8NjlGTljNcl0etaCZgJC2wpplcuHuNaHOmFWjiSQJDHrCYzSXWPsmBZU2w=s294-w294-h220-n-k-no"
+        ],
+          "price": 200.0,
+          "recommendation_star": 4.9,
+          "description": "Ryokan Espacioso offers luxury accommodations in the heart of the city. With top-notch facilities, it’s perfect for travelers seeking comfort and convenience."
+        },
+        {
+          "id": 2,
+          "name": "Monte Inn Hotel",
+         "images": [
+            "https://lh3.googleusercontent.com/p/AF1QipMsDRqhjDjXfGCdgYIW8y4AYwLQ9pwwKMjfiJDL=s294-w294-h220-n-k-no",
+            "https://lh3.googleusercontent.com/p/AF1QipMsDRqhjDjXfGCdgYIW8y4AYwLQ9pwwKMjfiJDL=s294-w294-h220-n-k-no",
+            "https://lh3.googleusercontent.com/p/AF1QipP4XV0L8P7WbsGULdxqTE4hqaHb-DvGckZofO_D=s294-w294-h220-n-k-no"
+        ],
+          "price": 100.0,
+          "recommendation_star": 4.6,
+          "description": "Monte Inn Hotel provides affordable accommodations with friendly service. It’s ideal for budget travelers exploring the vibrant city of Osaka."
+        }
+      ],
+      "restaurants": [
+        {
+          "id": 1,
+          "name": "Sushi Place",
+          "image": "https://i.pinimg.com/564x/bd/22/87/bd22870ec93fc17bc559ee136d27870f.jpg",
+          "price": 20.0,
+          "recommendation_star": 4.8,
+          "description": "Sushi Place offers fresh and authentic sushi in a traditional setting. It's a favorite spot for sushi lovers visiting Tokyo."
+        },
+        {
+          "id": 2,
+          "name": "Ramen House",
+          "image": "https://i.pinimg.com/564x/f9/a9/3a/f9a93a89576031695b764eb53d1045bf.jpg",
+          "price": 15.0,
+          "recommendation_star": 4.7,
+          "description": "Ramen House serves delicious ramen in a casual environment, known for its rich broth and flavorful toppings."
+        }
+      ]
+    },
+ {
+      "id": 4,
+      "name": "Beijing",
+      "image": "https://i.pinimg.com/564x/5e/78/d4/5e78d48d37169d1ddc60ea13c03614f4.jpg",
+      "description": "Beijing, the capital city of China, is a mesmerizing blend of ancient traditions and modern innovation. Renowned for its rich history dating back over three millennia, Beijing boasts iconic landmarks such as the Great Wall, the Forbidden City, and the Temple of Heaven, which stand as testaments to its imperial past.",
+      "airplane_companies": [
+        {
+          "id": 1,
+          "name": "Aire China",
+          "image": "https://i.pinimg.com/564x/ab/95/c5/ab95c5b5ef3b8dc98676861e927512ca.jpg",
+          "price": 380.0,
+          "recommendation_star": 5.0,
+          "description": "Air China, one of China's major airlines and the flagship carrier of the country, offers safety, comfort, and efficiency."
+        },
+        {
+          "id": 2,
+          "name": "China Eastern Airline",
+          "image": "https://i.pinimg.com/564x/3a/1d/9e/3a1d9eda075be7141bcbc674e22f80e9.jpg",
+          "price": 300.0,
+          "recommendation_star": 5.0,
+          "description": "China Eastern Airlines is committed to delivering excellent service, with attentive cabin crew trained to provide hospitality reflective of Chinese culture. Passengers can enjoy a variety of in-flight entertainment options."
+        }
+      ],
+      "hotels": [
+        {
+          "id": 1,
+          "name": "Mandarin Oriental",
+           "images": [
+            "https://lh3.googleusercontent.com/gps-proxy/ALd4DhFJGkdNfdowENs3QpUtETYFs5XHkChY9JK0sIzYoBgfq65xk18iBXEtivvRZwZTCXjUs87J7JUfTT3_rS_FO7HIu7Cv04-ZBs9zS5YgTnjDbTbkdJSTsLhTU0mcP-2DpP9Q9BrnZuMR8-S8o3s6E9MGIZKZNaHTd_SB_gDzlRPsCTPlgtcS0HDhDw=s294-w294-h220-n-k-no",
+            "https://lh3.googleusercontent.com/p/AF1QipOpn3Uqy3DtYDHhH7xtI5nn6sUKMZo9oTScMZfO=s294-w294-h220-n-k-no",
+            "https://lh3.googleusercontent.com/p/AF1QipPhSz9a3AyVIFMLQHZbpakMKYbS5qxMDZ4r_Wkf=s294-w294-h220-n-k-no"
+        ],
+          "price": 260.0,
+          "recommendation_star": 4.8,
+          "description": "Mandarin Oriental hotels epitomize luxury and refinement, offering unparalleled service, elegant accommodations, and a commitment to cultural authenticity."
+        },
+        {
+          "id": 2,
+          "name": "The Temple Hotel",
+           "images": [
+            "https://lh3.googleusercontent.com/gps-proxy/ALd4DhHoJwwqYOT6kuoeVCYxOL8U-JLindZrVE2aSGwqQDOVS-e9Wco5IvX7CaQeOb3WWgFN1uQYyrLfTZ5kPi8DAlzlQK9XPnl2t1kCGsnPsTOkMFPw2_JBfrAXyl_yod4etlEBr9FoDhsLNz17LhL1kbXeJ_UwMpLC5xudgoj5pJgmbPmUziT9n16i=s294-w294-h220-n-k-no",
+            "https://lh3.googleusercontent.com/gps-proxy/ALd4DhHoMH67vfDB0i_rki2st_IyPe36wnJ8KIWP2AH6JPMdNsa3eIZTkngwoyBcBtT9HVQEcB2cW_aRaDI919Qfmf7X1hJonEpoMM5WC_JrWBZ9EOdgVuG59-owbhfG0VM0wEJ3UC4R-YsrEU_DKy_uJRqs7vFAjy6RkRf8fDUIGEEmJI1PL5mXwlNw=s294-w294-h220-n-k-no",
+            "https://lh3.googleusercontent.com/p/AF1QipOQyv8rdZ_YRsitkWCkfHEqnk5atupFR3FD6mAY=s294-w294-h220-n-k-no"
+        ],
+          "price": 380.0,
+          "recommendation_star": 4.9,
+          "description": "The Temple Hotel features beautifully restored rooms and suites that harmonize traditional Chinese design elements with contemporary comforts."
+        }
+      ],
+      "restaurants": [
+        {
+          "id":1,
+          "name": "Won Fun China",
+          "image": "https://i.pinimg.com/736x/cb/0a/22/cb0a22bc10f97e5f93f593548ede3d3c.jpg",
+          "price": 45.0,
+          "recommendation_star": 4.9,
+          "description": "Won Fun China location is designed to reflect a sleek and stylish ambiance, offering diners a sophisticated yet relaxed dining experience."
+        },
+        {
+          "id": 2,
+          "name": "Beile Hotpot",
+          "image": "https://i.pinimg.com/564x/f3/0f/c0/f30fc047f2b9d4cbcccf40ab64b72554.jpg",
+          "price": 55.0,
+          "recommendation_star": 4.9,
+          "description": "At Beile Hotpot, diners can expect a vibrant and bustling setting where they can enjoy a communal dining experience centered around a simmering pot of flavorful broth."
+        }
+      ]
+    },
+ {
+      "id": 5,
+      "name": " New York",
+      "image": "https://i.pinimg.com/564x/43/ef/35/43ef3564f2217f6d4b7dcc85b1c1225b.jpg",
+      "description": "New York City, often simply called New York, is the most populous city in the United States. It is known for its iconic skyline dominated by the Empire State Building, Times Square, and Central Park. The city is a global hub for finance, culture, and the arts, with a diverse population and vibrant neighborhoods.",
+      "airplane_companies": [
+        {
+          "id": 1,
+          "name": "American Aireline",
+          "image": "https://i.pinimg.com/564x/ac/c9/a7/acc9a71cdad61e0c1359cda4d2929257.jpg",
+          "price": 180.0,
+          "recommendation_star": 4.6,
+          "description": "American Aireline, the flagship carrier of United States, provides an extensive network of flights globally. With a reputation for quality service, it ensures a pleasant journey."
+        },
+      ],
+      "hotels": [
+        {
+          "id": 1,
+          "name": "Caesars Palace",
+           "images": [
+            "https://lh3.googleusercontent.com/p/AF1QipNf5i6gq19HP2Mk57KAeD8Ma8PeRH1uYQ1BWb_0=s294-w294-h220-n-k-no",
+            "https://lh3.googleusercontent.com/p/AF1QipPsFmtqaPLd0uKDRz4MKv1e7KUffApCWKUiOxFO=s294-w294-h220-n-k-no",
+            "https://lh3.googleusercontent.com/p/AF1QipOVTvqOcbGkjMfUY6cAXPnnI8HiPZG55Rvap_5a=s294-w294-h220-n-k-no"
+        ],
+          "price": 150.0,
+          "recommendation_star": 4.8,
+          "description": "Caesars Palace offers luxurious accommodations near iconic landmarks. Known for its elegant decor and top-notch amenities, it provides an unforgettable stay."
+        },
+        {
+          "id": 2,
+          "name": "Stratosphere Las Vegas",
+           "images": [
+            "https://lh3.googleusercontent.com/p/AF1QipPW3blQMreRw6ewNiOSekx7L4QukBEqgYnGS4er=s294-w294-h220-n-k-no",
+            "https://lh3.googleusercontent.com/gps-proxy/ALd4DhHTPh2NrRb8qX06I9t-QLqpt1YtQmDAHPB1LzFdQTYeCsaNSgO5oLEKPAFAZPM3NPUwsvhKo1wOaroqMt7cPcaz9lX3NvkEzBolgYzkEi_A6X-89lIpEXjroJRrTb4rvLWS4DeAIhWGvXJwkiVolBuxonyPQthBQ6D4dQuBDfRgbSHLz-59f-4x_Q=s294-w294-h220-n-k-no",
+            "https://lh3.googleusercontent.com/p/AF1QipOL3Ovqkv6SExLQuh7xrtP_IGeYF9SJa-RokD1r=s294-w294-h220-n-k-no"
+        ],
+          "price": 180.0,
+          "recommendation_star": 4.5,
+          "description": "Stratosphere Las Vegas is a charming hotel with comfortable rooms. It offers a welcoming atmosphere perfect for both leisure and business travelers."
+        }
+      ],
+      "restaurants": [
+        {
+          "id":1,
+          "name": "Common Wealth",
+          "image": "https://i.pinimg.com/564x/9c/dc/de/9cdcdeef8e439701fc81d4f1467a9b91.jpg",
+          "price": 45.0,
+          "recommendation_star": 4.9,
+          "description": "Common Wealth is a high-end restaurant offering exquisite French cuisine. With a refined atmosphere, it’s a must-visit for food lovers."
+        },
+        {
+          "id": 2,
+          "name": "Green Sky",
+          "image": "https://i.pinimg.com/564x/35/36/e2/3536e2c800002d50545566752ec56b35.jpg",
+          "price": 35.0,
+          "recommendation_star": 4.7,
+          "description": "Green Sky serves classic French dishes in a cozy setting. It provides an authentic taste of USA bistro culture."
+        }
+      ]
+    },
+ {
+      "id": 6,
+      "name": "Berlin",
+      "image": "https://i.pinimg.com/564x/2b/61/f4/2b61f4ba57b42a946f3b55111ef22cfe.jpg",
+      "description": "Berlin, the capital of Germany, is a dynamic city with a diverse cultural scene, modern architecture, and historical landmarks. Known for its vibrant nightlife and artistic communities, Berlin is also home to iconic sites like the Brandenburg Gate, Berlin Wall, and Museum Island.",
+      "airplane_companies": [
+        {
+          "id": 1,
+          "name": "Air Berlin",
+          "image": "https://i.pinimg.com/564x/ce/90/cc/ce90cc5a4f1d61a3410c2d78e157dfc0.jpg",
+          "price": 180.0,
+          "recommendation_star": 4.6,
+          "description": "Air Berlin, the flagship carrier of France, provides an extensive network of flights globally. With a reputation for quality service, it ensures a pleasant journey."
+        },
+      ],
+      "hotels": [
+        {
+          "id": 1,
+          "name": "Meliá Berlin",
+           "images": [
+            "https://lh3.googleusercontent.com/gps-proxy/ALd4DhHR45vaHSFSZxbz1t3N5XpUTdl9P5TFY-3X0t-cSaM_Bpd_LZhFnvbmJvagQ6l4iVXy15DyPwRn27L4iaX_pwy8di9vIBSl-fFe2o3vMHLdUowLU04IGNY7ktu3xL_DtBmeh_nilsQnFF8TELL5huvmHHs_668dijVOSJxtAlEqWMnMkB3t6jLq=s294-w294-h220-n-k-no",
+            "https://lh3.googleusercontent.com/gps-proxy/ALd4DhEYMrhA5H_e0HeNL7yo9LXTUu7c_byG59TpM76L-Dzm4_Vw8C2FytN3sN-bG9vJcX6y3_3lkcUcwpkq9PiY_YKrZ99UquI7IllMimvY2R2IPcgP1DKv80HwHrCmFSwlfOmT1SEXG9PWOKgKBbtlivIbW3kuKqVxudPSKRN24NNuZgjgJk0_qqcR-A=s294-w294-h220-n-k-no",
+            "https://lh3.googleusercontent.com/p/AF1QipOVTvqOcbGkjMfUY6cAXPnnI8HiPZG55Rvap_5a=s294-w294-h220-n-k-no"
+        ],
+          "price": 150.0,
+          "recommendation_star": 4.8,
+          "description": "Meliá Berlin offers luxurious accommodations near iconic landmarks. Known for its elegant decor and top-notch amenities, it provides an unforgettable stay."
+        },
+        {
+          "id": 2,
+          "name": "Capri by Fraser",
+           "images": [
+            "https://lh3.googleusercontent.com/p/AF1QipPOcSJ_tF4nep1d2j4iD535whlEJfWQfdECI7Yh=s294-w294-h220-n-k-no",
+            "https://lh3.googleusercontent.com/p/AF1QipNz7sLvF4IkSUNRMIIpCsXQgtGuX1Fb6AZgz4Y6=s294-w294-h220-n-k-no",
+            "https://lh3.googleusercontent.com/p/AF1QipOL3Ovqkv6SExLQuh7xrtP_IGeYF9SJa-RokD1r=s294-w294-h220-n-k-no"
+        ],
+          "price": 180.0,
+          "recommendation_star": 4.5,
+          "description": "Capri by Fraser is a charming hotel with comfortable rooms. It offers a welcoming atmosphere perfect for both leisure and business travelers."
+        }
+      ],
+      "restaurants": [
+        {
+          "id":1,
+          "name": "Telegraphenamt in Mitte",
+          "image": "https://i.pinimg.com/564x/16/a7/3d/16a73d6e72404241b78d238088e4f8ea.jpg",
+          "price": 45.0,
+          "recommendation_star": 4.9,
+          "description": "Telegraphenamt in Mitte is a high-end restaurant offering exquisite French cuisine. With a refined atmosphere, it’s a must-visit for food lovers."
+        },
+        {
+          "id": 2,
+          "name": "Music Cuisine",
+          "image": "https://i.pinimg.com/564x/97/d0/d8/97d0d882454e660dae05a870987296dc.jpg",
+          "price": 35.0,
+          "recommendation_star": 4.7,
+          "description": "Music Cuisine serves classic French dishes in a cozy setting. It provides an authentic taste of French bistro culture."
+        }
+      ]
+    },
+ {
+      "id":7,
+      "name": "London",
+      "image": "https://i.pinimg.com/736x/df/f1/b6/dff1b67a5134b7f1ef63e353e2f7b8bd.jpg",
+      "description": "London, the capital of the United Kingdom, is a leading global city known for its history, culture, and diversity. Home to iconic landmarks like the Tower of London, Buckingham Palace, and the British Museum, London offers a mix of modernity and tradition. It is also a hub for finance, fashion, and the arts.",
+      "airplane_companies": [
+        {
+          "id": 1,
+          "name": "Iberia",
+          "image": "https://i.pinimg.com/564x/5e/4c/68/5e4c68bda46b4a61f7b847ea50e7de0c.jpg",
+          "price": 200.0,
+          "recommendation_star": 4.5,
+          "description": "Iberia, the national airline of Spain, offers extensive routes across Europe, the Americas, and beyond. Known for excellent service, it provides a comfortable travel experience with modern amenities."
+        },
+        {
+          "id": 2,
+          "name": "Vueling",
+          "image": "https://i.pinimg.com/564x/3c/e2/a8/3ce2a8f6f0c47ecde6dc53817e78eafe.jpg",
+          "price": 150.0,
+          "recommendation_star": 4.3,
+          "description": "Vueling, a low-cost airline based in Barcelona, offers affordable flights throughout Europe. It's popular for its competitive pricing and convenient schedules."
+        }
+      ],
+      "hotels": [
+        {
+          "id": 1,
+          "name": "ARK Canary Wharf",
+           "images": [
+            "https://lh3.googleusercontent.com/proxy/29vdtwlhYMQtiGADnjDfhrZTrZh7Lolh67JgU2cUvdX33CIoDa5jgvu2cpCXaWmatBNlK0dF1UvsTwjz5PQoYumIsTyNy0QArUMKVptrQoyeGEjoGWVO8O3MqZEQXsCD1K0vRmrDX4Ct-SYnYwJ1smJFFM0S0I8=s294-w294-h220-n-k-no",
+            "https://lh3.googleusercontent.com/proxy/KxKP1kKwXn5yjTdMbw5JUubkmBmLRSTjnz0iD4LN2UG2K9TVUoFk_J5M-M9JZfENGT665fjl7hSMUztUit_-LuZHIMx8mv_Mt8AgadeuTbZXwoVxTHaVmG34c6KHMYHkng_GxvT7RiCvpH2zP7QlLH8rWAksCBA=s294-w294-h220-n-k-no",
+            "https://lh3.googleusercontent.com/p/AF1QipOVTvqOcbGkjMfUY6cAXPnnI8HiPZG55Rvap_5a=s294-w294-h220-n-k-no"
+        ],
+          "price": 150.0,
+          "recommendation_star": 4.8,
+          "description": ARK Canary Wharf offers luxurious accommodations near iconic landmarks. Known for its elegant decor and top-notch amenities, it provides an unforgettable stay."
+        },
+        {
+          "id": 2,
+          "name": "Zedwell Piccadilly Circus",
+           "images": [
+            "https://lh3.googleusercontent.com/p/AF1QipPOcSJ_tF4nep1d2j4iD535whlEJfWQfdECI7Yh=s294-w294-h220-n-k-no",
+            "https://lh3.googleusercontent.com/p/AF1QipNz7sLvF4IkSUNRMIIpCsXQgtGuX1Fb6AZgz4Y6=s294-w294-h220-n-k-no",
+            "https://lh3.googleusercontent.com/p/AF1QipOL3Ovqkv6SExLQuh7xrtP_IGeYF9SJa-RokD1r=s294-w294-h220-n-k-no"
+        ],
+          "price": 180.0,
+          "recommendation_star": 4.5,
+          "description": "Zedwell Piccadilly Circus is a charming hotel with comfortable rooms. It offers a welcoming atmosphere perfect for both leisure and business travelers."
+        }
+      ],
+      "restaurants": [
+        {
+          "id":1,
+          "name": "Covent Garden",
+          "image": "https://i.pinimg.com/564x/8e/d3/1d/8ed31d3889f3df68991239db4902d256.jpg",
+          "price": 45.0,
+          "recommendation_star": 4.9,
+          "description": "Covent Garden is a high-end restaurant offering exquisite French cuisine. With a refined atmosphere, it’s a must-visit for food lovers."
+        },
+        {
+          "id": 2,
+          "name": "Trattoria",
+          "image": "https://i.pinimg.com/564x/85/fe/b1/85feb1aaea11050807386083f11faed5.jpg",
+          "price": 35.0,
+          "recommendation_star": 4.7,
+          "description": "Trattoria serves classic French dishes in a cozy setting. It provides an authentic taste of French bistro culture."
+        }
+      ]
+    },
+  ]
+}
