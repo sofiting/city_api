@@ -286,6 +286,14 @@
           "recommendationStar": 4.6,
           "description": "American Aireline, the flagship carrier of United States, provides an extensive network of flights globally. With a reputation for quality service, it ensures a pleasant journey."
         },
+        {
+          "id": 2,
+          "name": "Vueling",
+          "image": "https://i.pinimg.com/564x/3c/e2/a8/3ce2a8f6f0c47ecde6dc53817e78eafe.jpg",
+          "price": 150.0,
+          "recommendationStar": 4.3,
+          "description": "Vueling, a low-cost airline based in Barcelona, offers affordable flights throughout Europe. It's popular for its competitive pricing and convenient schedules."
+        }
       ],
       "hotels": [
         {
