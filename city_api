@@ -354,7 +354,7 @@
           "recommendationStar": 4.6,
           "description": "Air Berlin, the flagship carrier of France, provides an extensive network of flights globally. With a reputation for quality service, it ensures a pleasant journey."
         },
-      
+       ],
       "hotels": [
         {
           "id": 1,
